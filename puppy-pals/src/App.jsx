@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <div className="App">
+        <h1>Block 24 Workshop: Puppy Pals</h1>
         { 
           puppies.map((puppy)=> {
             return <p onClick = {()=>{ setFeatPupId(puppy.id)}} key={puppy.id}>{puppy.name}</p>;
