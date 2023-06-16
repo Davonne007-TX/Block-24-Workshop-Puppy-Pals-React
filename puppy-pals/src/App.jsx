@@ -10,7 +10,7 @@ function App() {
   console.log("PuppyList:", puppyList);
 
   const featuredPup = puppies.find((pup) => pup.id === featPupId);
-  console.log(featuredPup);
+  console.log(featuredPup); 
 
   return (
     <>
@@ -35,7 +35,7 @@ function App() {
      )} 
     </>
         );//from the return 
-}  //last curly for function App()
+ }  //last curly for function App()
 
 export default App
 
