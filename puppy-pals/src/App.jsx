@@ -28,8 +28,8 @@ function App() {
        <div>
         <h2>{featuredPup.name}</h2>
           <ul>
-            <li>Age: {featuredPup.age}</li>
-            <li>Email: {featuredPup.email}</li>
+            <li><em>Age:</em> {featuredPup.age}</li>
+            <li><em>Email:</em> {featuredPup.email}</li>
          </ul>
        </div>
      )} 
@@ -38,3 +38,6 @@ function App() {
 }  //last curly for function App()
 
 export default App
+
+
+

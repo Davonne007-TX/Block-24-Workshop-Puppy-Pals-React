@@ -22,23 +22,43 @@ body {
   min-height: 100vh;
 }
 
+/*headings*/
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
   text-decoration: underline;
   color: white;
+  font-family: "Lobster", cursive;
 }
 
+h2 {
+  font-family: "Lobster", cursive;
+}
 
+/*paragraphs*/
+p {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
 
+p:hover {
+  color: white;
+  cursor: pointer;
+}
 
+/*list*/
+li {
+  list-style-type: none;
+  font-size: 14pt;
 
+}
 
 
 
 /* ********* */
 
 /* Again wanted to keep this to remember what original page looked like, with Vite */
+
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -70,3 +90,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+
