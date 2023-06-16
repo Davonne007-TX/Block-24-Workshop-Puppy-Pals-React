@@ -17,7 +17,7 @@ function App() {
        {featPupId && <p> {featPupId}</p> }
      </div>
     </>
-        );//from the return s
+        );//from the return 
 }  //last curly for function App()
 
 export default App
